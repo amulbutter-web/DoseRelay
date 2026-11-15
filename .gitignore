@@ -1,0 +1,20 @@
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+# Generated dependencies, builds and caches
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+*.log
